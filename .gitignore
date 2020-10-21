@@ -1,0 +1,15 @@
+node_modules/
+x-*/
+y-*/
+z-*/
+.idea/
+2Do*
+secret*
+*.bat
+*.lnk
+*.sublime*
+.gitignore-REAL
+README-REAL.md
+LICENSE.md
+img
+src
