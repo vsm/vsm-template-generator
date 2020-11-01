@@ -48,13 +48,13 @@ __NOTE__ :
             plus any other context (or nested context). ”
 
   - …enables __users__ to generate _VSM structures_ like this, with ease:
-    > <a href="img/x01-protein-complex.svg">
+    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x01-protein-complex.svg">
     > <img class="xi" src="img/x01-protein-complex.svg" />
     > </a>
     …which describes a protein-complex (shown highlighted below) that
     consists of 2 proteins (A, B) and 3 sub-complexes ('cmplx'),
     &thinsp;with various pieces of context added throughout&thinsp;:
-    > <a href="img/x02-protein-complex-top-complex.svg">
+    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x02-protein-complex-top-complex.svg">
     > <img class="xi" src="img/x02-protein-complex-top-complex.svg" />
     > </a>
     &nbsp;
@@ -70,21 +70,21 @@ __NOTE__ :
     in a way that gets a dozen considerations integrated _just right_ 👌)
 
   - …and it specifies a clever __addressing scheme__
-    that makes it suprisingly easy to _access_ all terms and data –
+    that makes it surprisingly easy to _access_ all terms and data –
     no matter their location in the highly variable graph structures –  
     so developers can easily convert user-entered data to other
     data formats.  
-    For example it is easy to access&thinsp;
+    For example it is easy to access&thinsp;:&thinsp;
     ‘top-complex's 2<sup>nd</sup>-protein's 1<sup>st</sup>-phosphorylation
       details,&thinsp; or&thinsp;
     ‘top-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
       phosphorylation info’&thinsp;:
-    > <a href="img/x03-protein-complex-phosphorylations.svg">
+    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x03-protein-complex-phosphorylations.svg">
     > <img class="xi" src="img/x03-protein-complex-phosphorylations.svg" />
     > </a>
     …no matter how many intermediate graph 'branches' may be inserted –
-    like the ‘species’ info highlighted here:
-    > <a href="img/x04-protein-complex-species.svg">
+    like the ‘species’-info branch highlighted here:
+    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x04-protein-complex-species.svg">
     > <img class="xi" src="img/x04-protein-complex-species.svg" />
     > </a>
     <br>
