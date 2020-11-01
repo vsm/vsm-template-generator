@@ -21,7 +21,7 @@ __NOTE__ :
     as an unpaid scientist.  
   ◦ &nbsp; He needs tangib£€ love back now.&thinsp;
     A [__sponsor__ is needed](https://github.com/sponsors/stcruy)
-    for this top design &amp; planned implementation.  
+    for this detailed design &amp; planned implementation.  
   <br>
   Is this “embargo-until-funding” a good approach?&thinsp;
   Who knows? (and comments are welcome).  
