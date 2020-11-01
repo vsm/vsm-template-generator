@@ -8,15 +8,90 @@ __NOTE__ :
     This design was crafted and self-funded
     by [Steven Vercruysse](https://orcid.org/0000-0002-3136-7353).
 
-- So it's a shame this pearl had to be __XXX__-redacted for now.  
-  Academia's __dysfunctional funding system__ has already created
-  two financial craters in Steven's life:&nbsp;
-  I am out of funding again (despite 15 grant applications),
-  but I have a brain that's never out of work.  
-  I already __worked five spartan years for free__ in science.  
-  ◦ &nbsp; I am hurting.&nbsp; Now I need some tangib£€ love back.  
-  ◦ &nbsp; For implementation,
-  a [sponsor will be needed](https://github.com/sponsors/stcruy) this time.
+- But sadly, this pearl has to remain __XXX__-redacted for now.  
+  Academia's [myopic](https://pubmed.ncbi.nlm.nih.gov/32683609/)
+  __funding system__ has already created two financial craters
+  in Steven's life:  
+  ◦ &nbsp; I am out of funding (despite 15 grant applications)&thinsp; but have
+    brain that can't stop generating solutions for key problems.  
+  ◦ &nbsp; I already __worked 5 spartan years for free__ in science.  
+  ◦ &nbsp; So I need some tangib£€ love back now.&thinsp;
+    A [sponsor is needed](https://github.com/sponsors/stcruy)
+    for this design &amp; planned implementation.  
+
+- Is this the best approach? Who knows? (and comments are welcome).  
+  But it's foolish to keep doing the same thing
+  (=to give everything away for free),
+  and expect a different outcome (=to have an income).  
+
+
+<br>
+<style>
+img {
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.5px 3.2px 0 rgba(0, 0, 0, 0.2);
+  padding: 14px 22px 12px;
+  margin: 8px 0 20px 26px;
+  max-width: 100%;
+}
+</style>
+
+- Preview example (teaser):
+
+  - This design makes it incredibly simple to <u>define</u> meta-VSM-templates,  
+    &thinsp;and to <u>handle</u> user-generated VSM structures.
+
+  - For example a definition like:  
+          “ Protein complexes that may consist of both proteins and
+            sub-complexes,  
+    &nbsp;  that each may consist of proteins and nested sub-complexes too,
+            and so on;  
+    &nbsp;  and where each protein may have its own contextual information
+            attached,  
+    &nbsp;  such as phosphorylations (zero, one, or many)
+            plus any other context (or nested context). ”
+
+  - …enables __users__ to generate VSM _structures_ like this, with ease:
+    <img class="xi" src="img/x01-protein-complex.svg">
+    …where a top protein-complex (shown highlighted below) consists of 2 proteins
+    (A, B) and 3 sub-complexes ('cmplx'),  
+    …and various pieces of context are added throughout:  
+    <img class="xi" src="img/x02-protein-complex-top-complex.svg">
+    &nbsp;
+
+  - …and it enables __software developers__ (_affordable_, in truckloads of
+    coffee required) to make the next
+    [causalB](https://mi2cast.github.io/causalBuilder)ui[lder](https://www.preprints.org/manuscript/202007.0622),
+    or a heartBuilder, ecoBuilder, neuroBuilder, <span>_anything_</span>Builder;  
+    (i.e. this module performs the hardcore graph-fusing magic
+    at the heart of causalBuilder – but now generalized to handle
+    the combinatorial complexity of any graph structure,
+    wrapped into a module, and served with a pretty API –
+    in a way that gets a dozen considerations integrated _just right_ 👌);
+
+  - …and it specifies a clever __addressing scheme__
+    that makes it suprisingly easy to _access_ all terms and data –
+    no matter their location in the highly variable graph structures –  
+    so developers can easily convert user-entered data into other
+    data formats.  
+    For example it is easy to access&thinsp;
+    ‘top-complex's 2<sup>nd</sup>-protein's 1<sup>st</sup>-phosphorylation
+      details,&thinsp; or&thinsp;
+    ‘top-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
+      phosphorylation info’&thinsp;:
+    <img class="xi" src="img/x03-protein-complex-phosphorylations.svg">
+    …no matter how many intermediate graph 'branches' may be present –
+    like the ‘species’ info highlighted here:
+    <img class="xi" src="img/x04-protein-complex-species.svg">
+    <div style="margin: 10px 0 55px 0; font-size: smaller; font-style: italic;
+      color: #888; position: relative; width: 100%;">
+      <div style="position: absolute; right: 0;">
+        (Figures generated with
+        <a target="_blank" href="https://vsm.github.io/demo">
+          vsm-box demo and toolkit</a>.)
+      </div>
+    </div>
 
 
 <br>

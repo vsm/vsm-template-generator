@@ -1,0 +1,184 @@
+<svg viewBox="0 0 1261 122" xmlns="http://www.w3.org/2000/svg">
+<desc>Created with https://vsm.github.io/demo</desc>
+<style type="text/css">
+	.st0{fill:#E5E9FB;}
+	.st1{fill:#F0F4FB;}
+	.st2{fill:none;stroke:#000000;stroke-width:1.2;}
+	.st3{fill:none;stroke:#F2F2F2;stroke-width:1.2;}
+	.st4{fill:none;stroke:#EEEEEE;stroke-width:1.2;}
+	.st5{fill:#EEEEEE;}
+	.st6{fill:none;}
+	.st7{font-family:'Arial';}
+	.st8{font-size:14px;}
+	.st9{font-family:'Arial';font-style:italic;}
+	.st10{font-size:9.6px;}
+</style>
+<g>
+	<path class="st0" d="M244,84.6c0-1.436,1.164-2.6,2.6-2.6l0,0h134.8c1.436,0,2.6,1.164,2.6,2.6c0,0,0,0,0,0V92H244L244,84.6z"/>
+	<rect x="244" y="92" class="st0" width="57" height="13"/>
+	<rect x="303" y="92" class="st0" width="46" height="13"/>
+	<rect x="351" y="92" class="st0" width="33" height="13"/>
+</g>
+<g>
+	<path class="st0" d="M244,62.6c0-1.436,1.164-2.6,2.6-2.6l0,0h214.8c1.436,0,2.6,1.164,2.6,2.6v0v10.5H244L244,62.6z"/>
+	<rect x="244" y="70" class="st0" width="57" height="12"/>
+	<rect x="386" y="70" class="st0" width="49" height="35"/>
+	<rect x="437" y="70" class="st0" width="27" height="35"/>
+</g>
+<rect x="244" y="80.2" class="st1" width="57" height="1.8"/>
+<g>
+	<path class="st0" d="M792,84.599c0-1.436,1.164-2.6,2.6-2.6h131.8c1.436,0,2.6,1.164,2.6,2.6v7.4H792L792,84.599z"/>
+	<rect x="792" y="91.999" class="st0" width="57" height="13"/>
+	<rect x="851" y="91.999" class="st0" width="49" height="13"/>
+	<rect x="902" y="91.999" class="st0" width="27" height="13"/>
+</g>
+<g>
+	<line class="st2" x1="272" y1="88.6" x2="368.2" y2="88.6"/>
+	<line class="st2" x1="272.6" y1="102.2" x2="272.6" y2="88"/>
+	<line class="st2" x1="325.6" y1="95.81" x2="325.6" y2="88"/>
+	<path d="M325.6,94.61l4.29,7.59h-8.58L325.6,94.61z"/>
+	<line class="st2" x1="367.6" y1="101" x2="367.6" y2="88"/>
+	<path class="st2" d="M363.75,95.81l3.85,5.19l3.85-5.19"/>
+</g>
+<g>
+	<line class="st2" x1="272" y1="66.6" x2="451.2" y2="66.6"/>
+	<line class="st2" x1="272.6" y1="80.2" x2="272.6" y2="66"/>
+	<line class="st2" x1="410.6" y1="95.81" x2="410.6" y2="66"/>
+	<path d="M410.6,94.61l4.29,7.59h-8.58L410.6,94.61z"/>
+	<line class="st2" x1="450.6" y1="101" x2="450.6" y2="66"/>
+	<path class="st2" d="M446.75,95.81l3.85,5.19l3.85-5.19"/>
+</g>
+<g>
+	<line class="st2" x1="231" y1="44.6" x2="273.2" y2="44.6"/>
+	<line class="st2" x1="231.6" y1="102.2" x2="231.6" y2="44"/>
+	<line class="st2" x1="272.6" y1="57" x2="272.6" y2="44"/>
+	<path class="st2" d="M268.75,51.81L272.6,57l3.85-5.19"/>
+	<line class="st3" x1="249.3" y1="49.7" x2="254.9" y2="49.7"/>
+	<line class="st4" x1="252.1" y1="45.2" x2="252.1" y2="49.1"/>
+	<path class="st5" d="M252.1,46.15l1.7,2.95h-3.4L252.1,46.15z"/>
+</g>
+<g>
+	<line class="st2" x1="489" y1="88.6" x2="573.2" y2="88.6"/>
+	<line class="st2" x1="489" y1="90.93" x2="573.2" y2="90.93"/>
+	<line class="st2" x1="489.6" y1="95.82" x2="489.6" y2="88"/>
+	<path d="M486.08,95.82h7.04v6.38h-7.04V95.82z"/>
+	<line class="st2" x1="526.6" y1="102.2" x2="526.6" y2="88"/>
+	<line class="st2" x1="549.6" y1="102.2" x2="549.6" y2="88"/>
+	<line class="st2" x1="572.6" y1="102.2" x2="572.6" y2="88"/>
+</g>
+<g>
+	<line class="st2" x1="645" y1="88.6" x2="746.2" y2="88.6"/>
+	<line class="st2" x1="645.6" y1="102.2" x2="645.6" y2="88"/>
+	<line class="st2" x1="690.6" y1="95.81" x2="690.6" y2="88"/>
+	<path d="M690.6,94.61l4.29,7.59h-8.58L690.6,94.61z"/>
+	<line class="st2" x1="745.6" y1="101" x2="745.6" y2="88"/>
+	<path class="st2" d="M741.75,95.81l3.85,5.19l3.85-5.19"/>
+</g>
+<g>
+	<line class="st2" x1="820" y1="88.6" x2="916.2" y2="88.6"/>
+	<line class="st2" x1="820.6" y1="102.2" x2="820.6" y2="88"/>
+	<line class="st2" x1="875.6" y1="95.81" x2="875.6" y2="88"/>
+	<path d="M875.6,94.61l4.29,7.59h-8.58L875.6,94.61z"/>
+	<line class="st2" x1="915.6" y1="101" x2="915.6" y2="88"/>
+	<path class="st2" d="M911.75,95.81l3.85,5.19l3.85-5.19"/>
+</g>
+<g>
+	<line class="st2" x1="778" y1="66.6" x2="821.2" y2="66.6"/>
+	<line class="st2" x1="778.6" y1="102.2" x2="778.6" y2="66"/>
+	<line class="st2" x1="820.6" y1="79" x2="820.6" y2="66"/>
+	<path class="st2" d="M816.75,73.81L820.6,79l3.85-5.19"/>
+	<line class="st3" x1="796.8" y1="71.7" x2="802.4" y2="71.7"/>
+	<line class="st4" x1="799.6" y1="67.2" x2="799.6" y2="71.1"/>
+	<path class="st5" d="M799.6,68.15l1.7,2.95h-3.4L799.6,68.15z"/>
+</g>
+<g>
+	<line class="st2" x1="778" y1="44.6" x2="1051.2" y2="44.6"/>
+	<line class="st2" x1="778.6" y1="58.2" x2="778.6" y2="44"/>
+	<line class="st2" x1="976.6" y1="95.81" x2="976.6" y2="44"/>
+	<path d="M976.6,94.61l4.29,7.59h-8.58L976.6,94.61z"/>
+	<line class="st2" x1="1050.6" y1="101" x2="1050.6" y2="44"/>
+	<path class="st2" d="M1046.75,95.81l3.85,5.19l3.85-5.19"/>
+</g>
+<g>
+	<line class="st2" x1="608" y1="22.6" x2="779.2" y2="22.6"/>
+	<line class="st2" x1="608" y1="24.93" x2="779.2" y2="24.93"/>
+	<line class="st2" x1="608.6" y1="95.82" x2="608.6" y2="22"/>
+	<path d="M605.08,95.82h7.04v6.38h-7.04V95.82z"/>
+	<line class="st2" x1="645.6" y1="80.2" x2="645.6" y2="22"/>
+	<line class="st2" x1="778.6" y1="36.2" x2="778.6" y2="22"/>
+</g>
+<g>
+	<line class="st2" x1="1169" y1="88.6" x2="1253.2" y2="88.6"/>
+	<line class="st2" x1="1169" y1="90.93" x2="1253.2" y2="90.93"/>
+	<line class="st2" x1="1169.6" y1="95.82" x2="1169.6" y2="88"/>
+	<path d="M1166.08,95.82h7.04v6.38h-7.04V95.82z"/>
+	<line class="st2" x1="1206.6" y1="102.2" x2="1206.6" y2="88"/>
+	<line class="st2" x1="1229.6" y1="102.2" x2="1229.6" y2="88"/>
+	<line class="st2" x1="1252.6" y1="102.2" x2="1252.6" y2="88"/>
+</g>
+<g>
+	<line class="st2" x1="1111" y1="66.6" x2="1170.2" y2="66.6"/>
+	<line class="st2" x1="1169.6" y1="80.2" x2="1169.6" y2="66"/>
+	<line class="st2" x1="1111.6" y1="101" x2="1111.6" y2="66"/>
+	<path class="st2" d="M1107.75,95.81l3.85,5.19l3.85-5.19"/>
+	<line class="st3" x1="1137.8" y1="71.7" x2="1143.4" y2="71.7"/>
+	<line class="st4" x1="1140.6" y1="67.2" x2="1140.6" y2="71.1"/>
+	<path class="st5" d="M1140.6,68.15l1.7,2.95h-3.4L1140.6,68.15z"/>
+</g>
+<g>
+	<line class="st2" x1="96" y1="0.6" x2="1170.2" y2="0.6"/>
+	<line class="st2" x1="96" y1="2.93" x2="1170.2" y2="2.93"/>
+	<line class="st2" x1="96.6" y1="95.82" x2="96.6" y2="0"/>
+	<path d="M93.08,95.82h7.04v6.38h-7.04V95.82z"/>
+	<line class="st2" x1="208.6" y1="102.2" x2="208.6" y2="0"/>
+	<line class="st2" x1="231.6" y1="36.2" x2="231.6" y2="0"/>
+	<line class="st2" x1="489.6" y1="80.2" x2="489.6" y2="0"/>
+	<line class="st2" x1="608.6" y1="14.2" x2="608.6" y2="0"/>
+	<line class="st2" x1="1169.6" y1="58.2" x2="1169.6" y2="0"/>
+</g>
+<g>
+	<path class="st6" d="M375.6,82h5.8c1.436,0,2.6,1.164,2.6,2.6v5.8c0,1.436-1.164,2.6-2.6,2.6h-5.8c-1.436,0-2.6-1.164-2.6-2.6v-5.8
+		C373,83.164,374.164,82,375.6,82z"/>
+	<path class="st6" d="M375.5,84.5l6,6"/>
+	<path class="st6" d="M375.5,90.5l6-6"/>
+</g>
+<text transform="matrix(1 0 0 1 3.6313 119.1)" class="st7 st8">protein assembly </text>
+<text transform="matrix(1 0 0 1 113.3481 119.1)" class="st9 st8">(complex of)</text>
+<text transform="matrix(1 0 0 1 203.8311 119.1)" class="st7 st8">A</text>
+<text transform="matrix(1 0 0 1 226.8311 119.1)" class="st7 st8">B</text>
+<text transform="matrix(1 0 0 1 249.5347 119.1)" class="st7 st8">phosph</text>
+<text transform="matrix(1 0 0 1 308.4932 119.1)" class="st7 st8">at res</text>
+<text transform="matrix(1 0 0 1 356.6069 119.1)" class="st7 st8">Ser</text>
+<text transform="matrix(1 0 0 1 391.4312 119.1)" class="st7 st8">at pos</text>
+<text transform="matrix(1 0 0 1 442.7139 119.1)" class="st7 st8">20</text>
+<text transform="matrix(1 0 0 1 471.7207 119.1)" class="st7 st8">cmplx</text>
+<text transform="matrix(1 0 0 1 521.4448 119.1)" class="st7 st8">C</text>
+<text transform="matrix(1 0 0 1 544.4448 119.1)" class="st7 st8">D</text>
+<text transform="matrix(1 0 0 1 567.8311 119.1)" class="st7 st8">E</text>
+<text transform="matrix(1 0 0 1 590.7207 119.1)" class="st7 st8">cmplx</text>
+<text transform="matrix(1 0 0 1 641.2241 119.1)" class="st7 st8">F</text>
+<text transform="matrix(1 0 0 1 663.752 119.1)" class="st7 st8">bound to</text>
+<text transform="matrix(1 0 0 1 731.5791 119.1)" class="st7 st8">Ca</text>
+<text transform="matrix(1 0 0 1 749.4756 116.3)" class="st7 st10">2+</text>
+<text transform="matrix(1 0 0 1 773.5552 119.1)" class="st7 st8">G</text>
+<text transform="matrix(1 0 0 1 797.5347 119.1)" class="st7 st8">phosph</text>
+<text transform="matrix(1 0 0 1 856.4312 119.1)" class="st7 st8">at pos</text>
+<text transform="matrix(1 0 0 1 907.7139 119.1)" class="st7 st8">25</text>
+<text transform="matrix(1 0 0 1 936.8208 119.1)" class="st7 st8">from species</text>
+<text transform="matrix(1 0 0 1 1029.4897 119.1)" class="st7 st8">Mouse</text>
+<text transform="matrix(1 0 0 1 1084.6519 119.1)" class="st7 st8">transient</text>
+<text transform="matrix(1 0 0 1 1151.7207 119.1)" class="st7 st8">cmplx</text>
+<text transform="matrix(1 0 0 1 1201.4448 119.1)" class="st7 st8">H</text>
+<text transform="matrix(1 0 0 1 1227.5552 119.1)" class="st7 st8">I</text>
+<text transform="matrix(1 0 0 1 1249 119.1)" class="st7 st8">J</text>
+<g>
+	<path class="st6" d="M372.15,93.2v15.25l3.35-3.35l2.15,5.2l2.45-1.25l-2.15-4.85l4.9-0.35L372.15,93.2z"/>
+	<g>
+		<line class="st6" x1="369" y1="91" x2="366.55" y2="88.8"/>
+		<line class="st6" x1="368.15" y1="94.35" x2="365" y2="95.3"/>
+		<line class="st6" x1="375.3" y1="91" x2="377.75" y2="88.8"/>
+		<line class="st6" x1="376.15" y1="94.35" x2="379.3" y2="95.3"/>
+		<line class="st6" x1="372.15" y1="89.3" x2="372.15" y2="86"/>
+	</g>
+</g>
+</svg>
