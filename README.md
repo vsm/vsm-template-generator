@@ -8,41 +8,37 @@ __NOTE__ :
     This design was crafted and self-funded
     by [Steven Vercruysse](https://orcid.org/0000-0002-3136-7353).
 
-- But sadly, this pearl has to remain __XXX__-redacted for now.  
-  Academia's [myopic](https://pubmed.ncbi.nlm.nih.gov/32683609/)
-  __funding system__ has already created two financial craters
-  in Steven's life:  
-  ◦ &nbsp; I am out of funding (despite 15 grant applications)&thinsp; but have
-    brain that can't stop generating solutions for key problems.  
-  ◦ &nbsp; I already __worked 5 spartan years for free__ in science.  
-  ◦ &nbsp; So I need some tangib£€ love back now.&thinsp;
-    A [sponsor is needed](https://github.com/sponsors/stcruy)
-    for this design &amp; planned implementation.  
+<br>
 
-- Is this the best approach? Who knows? (and comments are welcome).  
-  But it's foolish to keep doing the same thing
-  (=to give everything away for free),
-  and expect a different outcome (=to have an income).  
-
+- Sadly, this pearl must remain __embargoed__ for now:
+  it is XXX-redacted.  
+  Academia's
+  <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32683609">broken</a>
+  funding system has already created two financial craters
+  in Steven's life&thinsp;:  
+  ◦ &nbsp; He is __out of funding__ (despite 15 grant applications)&thinsp; but
+    has a brain that can't stop generating top-rated solutions for key problems.  
+  ◦ &nbsp; He already __worked five years for free__&thinsp;
+    as an unpaid scientist.  
+  ◦ &nbsp; He needs tangib£€ love back now.&thinsp;
+    A [__sponsor__ is needed](https://github.com/sponsors/stcruy)
+    for this top design &amp; planned implementation.  
+  <br>
+  Is “embargo-until-funding” a good approach?
+  Who knows? (and comments are welcome).  
+  Yet it is foolish to keep doing the same thing
+  (=to give everything away for free)
+  and expect a different outcome (=to earn an income).
 
 <br>
-<style>
-img {
-  display: block;
-  border-radius: 6px;
-  box-shadow: 0.5px 0.5px 3.2px 0 rgba(0, 0, 0, 0.2);
-  padding: 14px 22px 12px;
-  margin: 8px 0 20px 26px;
-  max-width: 100%;
-}
-</style>
 
-- Preview example (teaser):
+- A preview example:
 
-  - This design makes it incredibly simple to <u>define</u> meta-VSM-templates,  
-    &thinsp;and to <u>handle</u> user-generated VSM structures.
+  - _vsm-template-generator_ &thinsp;makes it incredibly simple
+    to __define__ meta-VSM-templates,  
+    and to __handle__ user-generated VSM structures.
 
-  - For example a definition like:  
+  - For example a definition for this:  
           “ Protein complexes that may consist of both proteins and
             sub-complexes,  
     &nbsp;  that each may consist of proteins and nested sub-complexes too,
@@ -52,46 +48,44 @@ img {
     &nbsp;  such as phosphorylations (zero, one, or many)
             plus any other context (or nested context). ”
 
-  - …enables __users__ to generate VSM _structures_ like this, with ease:
-    <img class="xi" src="img/x01-protein-complex.svg">
-    …where a top protein-complex (shown highlighted below) consists of 2 proteins
-    (A, B) and 3 sub-complexes ('cmplx'),  
-    …and various pieces of context are added throughout:  
-    <img class="xi" src="img/x02-protein-complex-top-complex.svg">
+  - …enables __users__ to generate _VSM structures_ like this, with ease:
+    > <img class="xi" src="img/x01-protein-complex.svg" />
+    …which describes a protein-complex (shown highlighted below) that
+    consists of 2 proteins (A, B) and 3 sub-complexes ('cmplx'),
+    &thinsp;with various pieces of context added throughout&thinsp;:
+    > <img class="xi" src="img/x02-protein-complex-top-complex.svg" />
     &nbsp;
 
-  - …and it enables __software developers__ (_affordable_, in truckloads of
-    coffee required) to make the next
+  - …and it enables __software developers__ (_affordable_ ones,
+    in truckloads of coffee required) to make the next
     [causalB](https://mi2cast.github.io/causalBuilder)ui[lder](https://www.preprints.org/manuscript/202007.0622),
-    or a heartBuilder, ecoBuilder, neuroBuilder, <span>_anything_</span>Builder;  
+    or heartBuilder, ecoBuilder, neuroBuilder, <span>_anything_</span>Builder;  
     (i.e. this module performs the hardcore graph-fusing magic
     at the heart of causalBuilder – but now generalized to handle
     the combinatorial complexity of any graph structure,
-    wrapped into a module, and served with a pretty API –
-    in a way that gets a dozen considerations integrated _just right_ 👌);
+    and wrapped into a module, and served with a pretty API –
+    in a way that gets a dozen considerations integrated _just right_ 👌)
 
   - …and it specifies a clever __addressing scheme__
     that makes it suprisingly easy to _access_ all terms and data –
     no matter their location in the highly variable graph structures –  
-    so developers can easily convert user-entered data into other
+    so developers can easily convert user-entered data to other
     data formats.  
     For example it is easy to access&thinsp;
     ‘top-complex's 2<sup>nd</sup>-protein's 1<sup>st</sup>-phosphorylation
       details,&thinsp; or&thinsp;
     ‘top-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
       phosphorylation info’&thinsp;:
-    <img class="xi" src="img/x03-protein-complex-phosphorylations.svg">
+    > <img class="xi" src="img/x03-protein-complex-phosphorylations.svg" />
     …no matter how many intermediate graph 'branches' may be present –
     like the ‘species’ info highlighted here:
-    <img class="xi" src="img/x04-protein-complex-species.svg">
-    <div style="margin: 10px 0 55px 0; font-size: smaller; font-style: italic;
-      color: #888; position: relative; width: 100%;">
-      <div style="position: absolute; right: 0;">
-        (Figures generated with
-        <a target="_blank" href="https://vsm.github.io/demo">
-          vsm-box demo and toolkit</a>.)
-      </div>
-    </div>
+    > <img class="xi" src="img/x04-protein-complex-species.svg" />
+    <br>
+    <br>
+    <br>
+    (Figures: generated with
+    <a target="_blank" href="https://vsm.github.io/demo">
+      vsm-box demo&thinsp;&amp;&thinsp;toolkit</a>.)
 
 
 <br>
@@ -206,17 +200,6 @@ xxx xxx xxxx __xxxx__ xxx x xxxxxx xxxx xxx xxxx xxxx xx xxxxxxx xxxx
 
 
 
-<xxxxx>
-xxx x
-  xxxxxxxxxxxxxxx
-  xxxxxxxxxxxxxxxxxxx
-  xxxxxxxxxxxxxxxxx xxxxx xxxxx x xxxxxxx xx xx xxxxx
-  xxxxxxxxxxxxx xxxx xxxxx
-  xxxxxxxxxxx x xxxx xxxxx
-x
-</xxxxx>
-
-
 <br>
 
 ## 1. Sxxxxxxxx Dxxxxxxxxx
@@ -227,7 +210,7 @@ Sxxxx xx xxxxxxxxxxx x VSM-xxxxxxxx xx VSM-xxxxxxxx xx xx xxxxx xx xxxxx xx x
 [xxx-xxx](xxxxx://xxxxxx.xxx/xxx/xxx-xxx) xxxx-xxxxxxxxx xxxxxxxxx,
 xxxx xxxx:
 
-&lt;img src="img/xxx-xxxxxxxx.svg" width="475"&gt;  
+> &lt;img src="img/xxx-xxxxxxxx.svg" width="475"&gt;  
 |...  
 |...  
 |...  
@@ -239,7 +222,7 @@ xxxx xxxx:
 
 xx
 
-&lt;img src="img/xxx-xxxxxxxx.svg" width="446"&gt;  
+> &lt;img src="img/xxx-xxxxxxxx.svg" width="446"&gt;  
 |...  
 |...  
 |...  
@@ -355,7 +338,7 @@ xxxxxxx xxx xxxx xxxxx xxxx xxxxxxx xx xxx xxxxxxxxx.
 Txxx xxxxxxxxxx xxx xxxxxxx VSM-xxxxxxxx/xxxxxxxx xx – (xxx xxx xxxxx
 Pxx, Axx, xxx Lxx xx xxxxxxx xxxxx) :
 
-&lt;img src="img/xxx-xxxxxxxx-xxxxxx.svg" width="197"&gt;  
+> &lt;img src="img/xxx-xxxxxxxx-xxxxxx.svg" width="197"&gt;  
 |...  
 |...  
 |...  
@@ -367,7 +350,7 @@ Pxx, Axx, xxx Lxx xx xxxxxxx xxxxx) :
 
 xxxx x xxxxxxxxx-xxxxxxxxxx xxxxxxxx xxxx xxxxxx xx xxx xxxx:
 
-&lt;img src="img/xxxxxxxxx-xxxxxx.svg" width="515"&gt;  
+> &lt;img src="img/xxxxxxxxx-xxxxxx.svg" width="515"&gt;  
 |...  
 |...  
 |...  
@@ -414,7 +397,7 @@ xxxxxx 'Lxx', xxx xxxxxx x xxxxxxx VSM-xxxxxxxx xxxx xxx xxxxx '__xxxx__'
 (xxx xxx Sxxxxx `xxxxxxx`), xxx xxxxx (xxx xxx Oxxxxxx `x` xxx `x`),
 xxx x xxxxxxx xxxx xxxxxxx xxxxx xx xxx x/x/x-xxx xxxxxxxxxxxx. Sxx:
 
-&lt;img src="img/xxxxxxxxx-xxxxxx-1.svg" width="218"&gt;  
+> &lt;img src="img/xxxxxxxxx-xxxxxx-1.svg" width="218"&gt;  
 |...  
 |...  
 |...  
@@ -431,7 +414,7 @@ xxx `x` xxx `x`), xxx x xxxxxxx. Axxx, xxxxxxxxx xxx xxxxxxxxxxx
 xxxxx xx xxx xxxx (xx xxxx) xx xxx xxxxx Axx-xxxxxxxxx'x xxxxxxxx-xxx, xxxx `x`.
 Sxx:
 
-&lt;img src="img/xxxxxxxxx-xxxxxx-2.svg" width="218"&gt;  
+> &lt;img src="img/xxxxxxxxx-xxxxxx-2.svg" width="218"&gt;  
 |...  
 |...  
 |...  
@@ -451,7 +434,7 @@ Fxxxxxx, xx xxxxxxxx xxx `xxxxxxx` xxxx xxxx 3 xxxxx (`x`, `x`, `x`)
 xxx x xxxxxxx, xxx xxxxx xxx xxxxx Axx-xxxxxxxxx'x xxxxxxx-xxx
 xxxxx xx xxx xxxxx Pxx-xxxxxxxxx'x xxxxxxx-xxx. Sxx:
 
-&lt;img src="img/xxxxxxxxx-xxxxxx-3.svg" width="218"&gt;  
+> &lt;img src="img/xxxxxxxxx-xxxxxx-3.svg" width="218"&gt;  
 |...  
 |...  
 |...  
@@ -485,7 +468,7 @@ xx xxx xxxxxxx.
   Txx xxxxxxx xxxxx xx `xxxxx xxxxx`, x.x. xxxxxxx, xxxx xxxxxxxx, xxxx xxxxxx.
   Ax xx xxxxxxx xxxx x xxxxxx: `x xx xx xx xx xxxxx xxxx x` xxxxxx
   xxx xxxxxx-xxx xxxxxx xxx xxxxxxx xxx, xxx xxxx xxxx `x` xxxxxx xxxx `x`.
-  &lt;img src="img/xxxx-xxxxxxx-xxxxxx.svg" width="148"&gt;  
+  > &lt;img src="img/xxxx-xxxxxxx-xxxxxx.svg" width="148"&gt;  
 |...  
 |...  
 |...  
@@ -504,7 +487,7 @@ xx xxx xxxxxxx.
   Fxx xxxxxxx, `x` xxxx xxx xxxxxxxx xx xxxxx xx xxx
   xxxxxxxx, `x` xxxx xx xxxxxx xxx xxxxx xxx, `xx` xxxx xx xxxxxx xxx xx xxxx,
   xxx `xx` (xxxxx xx xxx xxxxxxx xxxxx) xxxx xx xxxxxx xx xxxx.
-  &lt;img src="img/xxxx-xxxx-xxxxxxxx.svg" width="389"&gt;  
+  > &lt;img src="img/xxxx-xxxx-xxxxxxxx.svg" width="389"&gt;  
 |...  
 |...  
 |...  
@@ -531,7 +514,7 @@ xx xxxxxxx xxx `x` xxx `x` xxxxx xxxx xxx 'Pxx'-xxxxxxxxx xxxxx xx `x`
 Wx xxx xxxx xxxx xxx xxxxxx xx xxxx `x` xx `x` xxxx x xxxxxx xxxxxxx,
 xx xx xxxxx xxxxxx xxx xxxxx xxxxxx xxxxxxxxx.  Sxx:
 
-&lt;img src="img/xxxxxx-xxxxxxxxxx.svg" width="594"&gt;  
+> &lt;img src="img/xxxxxx-xxxxxxxxxx.svg" width="594"&gt;  
 |...  
 |...  
 |...  
@@ -752,7 +735,7 @@ xxxxxx-xxxxxxx xxxxxxxxx), xxxx xx xxxxxxx:
 
 Sxx:
 
-&lt;img src="img/xxxx-xxxx-xxx-xxx.svg" width="490"&gt;  
+> &lt;img src="img/xxxx-xxxx-xxx-xxx.svg" width="490"&gt;  
 |...  
 |...  
 |...  
@@ -796,7 +779,7 @@ xxxx xxxxxx x xxxx xxxxxxxxx, xx xxxx xxx xxxxxxxx xx xxx xxxx
 "{xxxxxxx} xxxxxx-xxxxx xxxxx" xxxx xxx xxxx xxxxxxxxx xx "xxxxxxx A".
 Hxxx xx xxxxx xx xxx xxxxxx. E.x.:
 
-&lt;img src="img/xxxx-xxxxxxxxxx.svg" width="487"&gt;  
+> &lt;img src="img/xxxx-xxxxxxxxxx.svg" width="487"&gt;  
 |...  
 |...  
 |...  
@@ -808,7 +791,7 @@ Hxxx xx xxxxx xx xxx xxxxxx. E.x.:
 
 xx xx x xxxxxx:
 
-&lt;img src="img/xxxx-xxxxxxxxxx-xxxxxx.svg" width="215"&gt;  
+> &lt;img src="img/xxxx-xxxxxxxxxx-xxxxxx.svg" width="215"&gt;  
 |...  
 |...  
 |...  
@@ -883,7 +866,7 @@ xxx xxxxx x x
 xx
 ```
 
-&lt;img src="img/xxxx-xxxxxxxx.svg" width="102"&gt;  
+> &lt;img src="img/xxxx-xxxxxxxx.svg" width="102"&gt;  
 |...  
 |...  
 |...  
@@ -938,7 +921,7 @@ Ax xxxx xxxxxxxxxx, xxx xxxxxxxxx xxxx xxxxxxxx x xxx xxxxxxxxx xxxxxxxx.
   ```
   xxxxxx xxxxxxxxxxx  xxxxx  xxxxxxxxxx x  xx xxxxxxxxx xxx xxxxxx
   ```
-  &lt;img src="img/xxxx-xxxxxxxxxxxx.svg" width="247"&gt;  
+  > &lt;img src="img/xxxx-xxxxxxxxxxxx.svg" width="247"&gt;  
 |...  
 |...  
 |...  
@@ -962,7 +945,7 @@ Ax xxxx xxxxxxxxxx, xxx xxxxxxxxx xxxx xxxxxxxx x xxx xxxxxxxxx xxxxxxxx.
   xxxxx xxxx x xxxxxxxxxx xxx xx `xxxxx` (xxx xxxx xxxxxxx 4.2)
   xxxxx xxxxxxxx xxx xxxxxxx
   – (xxx xxxxx xx `x`='xxxxxxx', `x`='xxx' xx 'xxxxxxxx xx'):
-  &lt;img src="img/xxxx-xxxxxxxxx.svg" width="315"&gt;  
+  > &lt;img src="img/xxxx-xxxxxxxxx.svg" width="315"&gt;  
 |...  
 |...  
 |...  
@@ -1068,7 +1051,7 @@ xxx xxxxx x x
 xx
 ```
 
-&lt;img src="img/xxxx-xxxxxx.svg" width="506"&gt;  
+> &lt;img src="img/xxxx-xxxxxx.svg" width="506"&gt;  
 |...  
 |...  
 |...  
@@ -1181,7 +1164,7 @@ Txx xxxxxx xxxxx xxxxxxxxxxx:
                &nbsp;(xxxx xxxxxxxx xxxxx xx (xxxxx xxxx))
                &nbsp;(xxxx xx xxxxxxxxx xx xxxxxxx 4.3).
 
-&lt;img src="img/xxxx-xxxx.svg" width="642"&gt;  
+> &lt;img src="img/xxxx-xxxx.svg" width="642"&gt;  
 |...  
 |...  
 |...  
@@ -1236,7 +1219,7 @@ xx    x   xxxxx      xxx     xx     xxxxxxx
 xx    x   xxx        xx      xx         xxx
 ```
 
-&lt;img src="img/xxxx-xxxxxx-xxxxxxx.svg" width="692"&gt;  
+> &lt;img src="img/xxxx-xxxxxx-xxxxxxx.svg" width="692"&gt;  
 |...  
 |...  
 |...  
