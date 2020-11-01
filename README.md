@@ -54,8 +54,8 @@ __NOTE__ :
     …which describes a protein-complex (shown highlighted below) that
     consists of 2 proteins (A, B) and 3 sub-complexes ('cmplx'),
     &thinsp;with various pieces of context added throughout&thinsp;:
-    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x02-protein-complex-top-complex.svg">
-    > <img class="xi" src="img/x02-protein-complex-top-complex.svg" />
+    > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x02-protein-complex-main.svg">
+    > <img class="xi" src="img/x02-protein-complex-main.svg" />
     > </a>
     &nbsp;
 
@@ -75,9 +75,9 @@ __NOTE__ :
     so developers can easily convert user-entered data to other
     data formats.  
     For example it is easy to access&thinsp;:&thinsp;
-    ‘top-complex's 2<sup>nd</sup>-protein's 1<sup>st</sup>-phosphorylation
-      details,&thinsp; or&thinsp;
-    ‘top-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
+    ‘main-complex's 2<sup>nd</sup>-protein's 1<sup>st</sup>-phosphorylation
+      details’,&thinsp; or&thinsp;
+    ‘main-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
       phosphorylation info’&thinsp;:
     > <a href="https://raw.githubusercontent.com/vsm/vsm-template-generator/master/img/x03-protein-complex-phosphorylations.svg">
     > <img class="xi" src="img/x03-protein-complex-phosphorylations.svg" />
