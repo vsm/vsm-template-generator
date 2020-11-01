@@ -2,7 +2,7 @@
 
 __NOTE__ :
 
-- This module is still __ONLY a SPECIFICATION__ of the design.
+- This module is still __only a SPECIFICATION__ of the design.
   - Yet it is __a _thorough and elegant design_,__ for a method and algorithm
     that make complex structure variations easy to handle!  
     This design was crafted and self-funded
@@ -10,10 +10,9 @@ __NOTE__ :
 
 <br>
 
-- Sadly, this pearl must remain __embargoed__ for now:
-  it is XXX-redacted.  
+- Sadly, this pearl must remain __embargoed__ for now: it is XXX-redacted.  
   Academia's
-  <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32683609">broken</a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/32683609">broken</a>
   funding system has already created two financial craters
   in Steven's life&thinsp;:  
   ◦ &nbsp; He is __out of funding__ (despite 15 grant applications)&thinsp; but
@@ -24,7 +23,7 @@ __NOTE__ :
     A [__sponsor__ is needed](https://github.com/sponsors/stcruy)
     for this top design &amp; planned implementation.  
   <br>
-  Is “embargo-until-funding” a good approach?
+  Is this “embargo-until-funding” a good approach?&thinsp;
   Who knows? (and comments are welcome).  
   Yet it is foolish to keep doing the same thing
   (=to give everything away for free)
@@ -49,11 +48,15 @@ __NOTE__ :
             plus any other context (or nested context). ”
 
   - …enables __users__ to generate _VSM structures_ like this, with ease:
+    > <a href="img/x01-protein-complex.svg">
     > <img class="xi" src="img/x01-protein-complex.svg" />
+    > </a>
     …which describes a protein-complex (shown highlighted below) that
     consists of 2 proteins (A, B) and 3 sub-complexes ('cmplx'),
     &thinsp;with various pieces of context added throughout&thinsp;:
+    > <a href="img/x02-protein-complex-top-complex.svg">
     > <img class="xi" src="img/x02-protein-complex-top-complex.svg" />
+    > </a>
     &nbsp;
 
   - …and it enables __software developers__ (_affordable_ ones,
@@ -76,15 +79,18 @@ __NOTE__ :
       details,&thinsp; or&thinsp;
     ‘top-complex's 2<sup>nd</sup>-subcomplex's 2<sup>nd</sup>-protein's
       phosphorylation info’&thinsp;:
+    > <a href="img/x03-protein-complex-phosphorylations.svg">
     > <img class="xi" src="img/x03-protein-complex-phosphorylations.svg" />
-    …no matter how many intermediate graph 'branches' may be present –
+    > </a>
+    …no matter how many intermediate graph 'branches' may be inserted –
     like the ‘species’ info highlighted here:
+    > <a href="img/x04-protein-complex-species.svg">
     > <img class="xi" src="img/x04-protein-complex-species.svg" />
-    <br>
+    > </a>
     <br>
     <br>
     (Figures: generated with
-    <a target="_blank" href="https://vsm.github.io/demo">
+    <a href="https://vsm.github.io/demo">
       vsm-box demo&thinsp;&amp;&thinsp;toolkit</a>.)
 
 

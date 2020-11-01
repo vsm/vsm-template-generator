@@ -2,10 +2,10 @@
 <desc>Created with https://vsm.github.io/demo</desc>
 <style>path{stroke:none}</style>
 <path fill="#e5e9fb" d="M763.446 40.6a2.6 2.6 0 0 1 2.6-2.6h303.8a2.6 2.6 0 0 1 2.6 2.6V48h-309z"/>
-<path fill="#e5e9fb" d="M763.446 48h22v12h-22z"/>
+<path fill="#fefeff" d="M763.446 60h22v45h-22z"/>
+<path fill="#e5e9fb" d="M763.446 48h22v12.3h-22z"/>
 <path fill="#e5e9fb" d="M926.446 48h91v57h-91z"/>
 <path fill="#e5e9fb" d="M1019.446 48h53v57h-53z"/>
-<path fill="#f0f4fb" d="M763.446 60h22v45h-22z"/>
 <path d="M267.446 88v1.2h96.199V88z"/>
 <path d="M267.446 88v14.2h1.199V88z"/>
 <path d="M320.446 88v7.81h1.199V88z"/>
